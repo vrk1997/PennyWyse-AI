@@ -1,0 +1,122 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Income",
+      "type": "credit",
+      "icon": "💰",
+      "color": "#00FFA3",
+      "keywords": ["salary", "income", "credit", "refund", "cashback", "bonus", "dividend", "interest"]
+    },
+    {
+      "id": 2,
+      "name": "Rent",
+      "type": "debit",
+      "icon": "🏠",
+      "color": "#A78BFA",
+      "keywords": ["rent", "lodha", "housing", "lease", "apartment", "flat"]
+    },
+    {
+      "id": 3,
+      "name": "EMI",
+      "type": "debit",
+      "icon": "💳",
+      "color": "#F59E0B",
+      "keywords": ["emi", "loan", "sbi", "hdfc loan", "bajaj finserv", "installment", "mortgage"]
+    },
+    {
+      "id": 4,
+      "name": "Food",
+      "type": "debit",
+      "icon": "🍕",
+      "color": "#EF4444",
+      "keywords": ["swiggy", "zomato", "food", "restaurant", "cafe", "dining", "grocery", "bigbasket", "blinkit", "dunzo"]
+    },
+    {
+      "id": 5,
+      "name": "Shopping",
+      "type": "debit",
+      "icon": "🛍️",
+      "color": "#EC4899",
+      "keywords": ["amazon", "flipkart", "myntra", "shopping", "mall", "store", "retail", "ajio", "meesho"]
+    },
+    {
+      "id": 6,
+      "name": "Transport",
+      "type": "debit",
+      "icon": "🚗",
+      "color": "#3B82F6",
+      "keywords": ["uber", "ola", "rapido", "fuel", "petrol", "diesel", "metro", "transport", "taxi", "auto"]
+    },
+    {
+      "id": 7,
+      "name": "Utilities",
+      "type": "debit",
+      "icon": "⚡",
+      "color": "#10B981",
+      "keywords": ["electricity", "water", "gas", "mobile", "internet", "broadband", "recharge", "bill payment"]
+    },
+    {
+      "id": 8,
+      "name": "Entertainment",
+      "type": "debit",
+      "icon": "🎬",
+      "color": "#8B5CF6",
+      "keywords": ["netflix", "amazon prime", "hotstar", "movie", "spotify", "game", "youtube premium", "disney"]
+    },
+    {
+      "id": 9,
+      "name": "Healthcare",
+      "type": "debit",
+      "icon": "🏥",
+      "color": "#06B6D4",
+      "keywords": ["hospital", "pharmacy", "doctor", "medical", "health", "medicine", "apollo", "practo", "1mg"]
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "type": "debit",
+      "icon": "📚",
+      "color": "#F97316",
+      "keywords": ["school", "college", "course", "tuition", "education", "training", "udemy", "coursera"]
+    },
+    {
+      "id": 11,
+      "name": "Investment",
+      "type": "debit",
+      "icon": "📈",
+      "color": "#14B8A6",
+      "keywords": ["mutual fund", "sip", "stock", "investment", "zerodha", "groww", "gold", "fd"]
+    },
+    {
+      "id": 12,
+      "name": "Insurance",
+      "type": "debit",
+      "icon": "🛡️",
+      "color": "#6366F1",
+      "keywords": ["insurance", "premium", "lic", "hdfc life", "health insurance", "term insurance"]
+    },
+    {
+      "id": 13,
+      "name": "Other",
+      "type": "debit",
+      "icon": "📦",
+      "color": "#64748B",
+      "keywords": []
+    }
+  ],
+  "budget_recommendations": {
+    "Income": 100,
+    "Rent": 30,
+    "EMI": 20,
+    "Food": 15,
+    "Shopping": 10,
+    "Transport": 8,
+    "Utilities": 7,
+    "Entertainment": 5,
+    "Healthcare": 3,
+    "Other": 2
+  },
+  "version": "1.0.0",
+  "last_updated": "2024-12-27"
+}
