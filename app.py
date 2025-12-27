@@ -1,3 +1,10 @@
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
+import streamlit as st
+# ... rest of your imports
+
 import streamlit as st
 import pandas as pd
 import google.generativeai as genai
@@ -70,3 +77,4 @@ else:
     uploaded_file = st.file_uploader("Upload PDF or Image", type=['pdf', 'jpg', 'png'], label_visibility="collapsed")
     if uploaded_file and st.button("AI ANALYZE"):
         st.info("Parsing data and checking for duplicates...")
+
